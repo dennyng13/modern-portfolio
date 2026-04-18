@@ -9,7 +9,7 @@ export const serviceData = [];
 
 const Services = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center">
+    <div className="h-full bg-secondary/60 py-36 flex items-center">
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
@@ -31,8 +31,8 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              From idea to launch — I help founders and teams design, build and
+              ship modern web products that feel fast, friendly and on-brand.
             </motion.p>
           </div>
 

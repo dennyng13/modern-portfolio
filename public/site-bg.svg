@@ -1,14 +1,20 @@
 <svg width="1435" height="877" viewBox="0 0 1435 877" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_157_2)">
-<rect width="1435" height="877" fill="#1A1333"/>
+<rect width="1435" height="877" fill="#FFF7ED"/>
 <g filter="url(#filter0_f_157_2)">
-<circle cx="172" cy="153" r="178" fill="#352467"/>
+<circle cx="172" cy="153" r="218" fill="#FDBA74"/>
 </g>
 <g filter="url(#filter1_f_157_2)">
-<circle cx="1299" cy="142" r="178" fill="#352467"/>
+<circle cx="1299" cy="142" r="198" fill="#FBCFE8"/>
 </g>
 <g filter="url(#filter2_f_157_2)">
-<circle cx="1082" cy="460" r="217" fill="#352467"/>
+<circle cx="1082" cy="460" r="237" fill="#FDE68A"/>
+</g>
+<g filter="url(#filter3_f_157_2)">
+<circle cx="320" cy="720" r="228" fill="#BAE6FD"/>
+</g>
+<g filter="url(#filter4_f_157_2)">
+<circle cx="820" cy="200" r="170" fill="#FBCFE8"/>
 </g>
 </g>
 <defs>
@@ -23,6 +29,16 @@
 <feGaussianBlur stdDeviation="175" result="effect1_foregroundBlur_157_2"/>
 </filter>
 <filter id="filter2_f_157_2" x="515" y="-107" width="1134" height="1134" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="175" result="effect1_foregroundBlur_157_2"/>
+</filter>
+<filter id="filter3_f_157_2" x="-258" y="142" width="1156" height="1156" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="175" result="effect1_foregroundBlur_157_2"/>
+</filter>
+<filter id="filter4_f_157_2" x="300" y="-320" width="1040" height="1040" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="175" result="effect1_foregroundBlur_157_2"/>

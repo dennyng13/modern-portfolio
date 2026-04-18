@@ -21,7 +21,7 @@ const Contact = () => {
     })
       .then((res) => {
         if (res.status === 200) {
-          alert("Thank you. I will get back to you ASAP.");
+          alert("Thanks! I'll get back to you as soon as I can.");
         } else {
           console.log(res);
         }
@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-full bg-primary/30">
+    <div className="h-full bg-secondary/60">
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
         {/* text & form */}
         <div className="flex flex-col w-full max-w-[700px]">
@@ -104,7 +104,7 @@ const Contact = () => {
             />
             <button
               type="submit"
-              className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
+              className="btn rounded-full bg-accent text-white max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:bg-sunrise shadow-md shadow-accent/20 group"
               disabled={isLoading}
               aria-disabled={isLoading}
             >

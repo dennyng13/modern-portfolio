@@ -11,40 +11,35 @@ import {
 
 export const socialData = [
   {
-    name: "YouTube",
-    link: "https://youtube.com",
-    Icon: RiYoutubeLine,
-  },
-  {
     name: "Instagram",
-    link: "https://instagram.com",
+    link: "https://instagram.com/dennyng13",
     Icon: RiInstagramLine,
   },
   {
     name: "Facebook",
-    link: "https://facebook.com",
+    link: "https://facebook.com/dennyng13",
     Icon: RiFacebookLine,
   },
   {
     name: "Dribbble",
-    link: "https://dribbble.com",
+    link: "https://dribbble.com/dennyng13",
     Icon: RiDribbbleLine,
   },
   {
-    name: "Pinterest",
-    link: "https://pinterest.com",
-    Icon: RiPinterestLine,
+    name: "YouTube",
+    link: "https://youtube.com/@dennyng13",
+    Icon: RiYoutubeLine,
   },
   {
     name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
+    link: "https://github.com/dennyng13",
     Icon: RiGithubLine,
   },
 ];
 
 const Socials = () => {
   return (
-    <div className="flex items-center gap-x-5 text-lg">
+    <div className="flex items-center gap-x-5 text-lg text-primary/80">
       {socialData.map((social, i) => (
         <Link
           key={i}
@@ -54,7 +49,7 @@ const Socials = () => {
           rel="noreferrer noopener"
           className={`${
             social.name === "Github"
-              ? "bg-accent rounded-full p-[5px] hover:text-white"
+              ? "bg-accent text-white rounded-full p-[5px] hover:bg-sunrise"
               : "hover:text-accent"
           } transition-all duration-300`}
         >
