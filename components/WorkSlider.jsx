@@ -90,7 +90,7 @@ const WorkSlider = () => {
 
                   {/* overlay gradient */}
                   <div
-                    className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"
+                    className="absolute inset-0 bg-gradient-to-l from-transparent via-sunshine to-accent opacity-0 group-hover:opacity-80 transition-all duration-700"
                     aria-hidden
                   />
 
@@ -100,7 +100,7 @@ const WorkSlider = () => {
                       href={image.link}
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]"
+                      className="flex items-center gap-x-2 text-[13px] tracking-[0.2em] text-white font-semibold"
                     >
                       {/* title part 1 */}
                       <div className="delay-100">LIVE</div>

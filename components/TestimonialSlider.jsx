@@ -10,24 +10,24 @@ import "swiper/css/pagination";
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    name: "Amelia Tan",
+    position: "Founder, BrightWave Labs",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Denny shipped our MVP in record time with taste and care. Working with him feels like a breath of fresh air — thoughtful, fast, and kind.",
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "Jordan Lee",
+    position: "Product Lead, SunnySide Studio",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "He turned a messy brief into a crisp, beautiful product. Stakeholders were impressed and users actually love using it every day.",
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    name: "Priya Raman",
+    position: "Co-founder, MintLane",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Rare combo of design sensibility and strong engineering. Denny is the kind of builder every early-stage team wants on board.",
   },
 ];
 
@@ -54,31 +54,34 @@ const TestimonialSlider = () => {
                     width={100}
                     height={100}
                     alt={person.name}
+                    className="rounded-full ring-2 ring-accent/40"
                   />
                 </div>
 
                 {/* name */}
-                <div className="text-lg">{person.name}</div>
+                <div className="text-lg font-semibold text-primary">
+                  {person.name}
+                </div>
 
                 {/* position */}
-                <div className="text-[12px] uppercase font-extralight tracking-widest">
+                <div className="text-[12px] uppercase font-extralight tracking-widest text-primary/60">
                   {person.position}
                 </div>
               </div>
             </div>
 
             {/* quote & message */}
-            <div className="flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20">
+            <div className="flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-primary/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20">
               {/* quote icon */}
               <div className="mb-4">
                 <FaQuoteLeft
-                  className="text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0"
-                  aria-aria-hidden
+                  className="text-4xl xl:text-6xl text-accent/30 mx-auto md:mx-0"
+                  aria-hidden
                 />
               </div>
 
               {/* message */}
-              <div className="xl:text-lg text-center md:text-left">
+              <div className="xl:text-lg text-center md:text-left text-primary/80">
                 {person.message}
               </div>
             </div>

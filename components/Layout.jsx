@@ -15,21 +15,21 @@ const sora = Sora({
 const Layout = ({ children }) => {
   return (
     <main
-      className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
+      className={`page bg-site text-primary bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
     >
       {/* metadata */}
       <Head>
-        <title>Ethan Smith | Portfolio</title>
+        <title>Denny Ng | Portfolio</title>
         <meta
           name="description"
-          content="Ethan Smith is a Full-stack web developer with 10+ years of experience."
+          content="Denny Ng is a Full-stack Developer & Product Builder crafting bright, modern digital experiences."
         />
         <meta
           name="keywords"
-          content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect"
+          content="denny ng, react, next, nextjs, portfolio, full-stack developer, product, ui, ux, framer-motion"
         />
-        <meta name="author" content="Sanidhya Kumar Verma" />
-        <meta name="theme-color" content="#f13024" />
+        <meta name="author" content="Denny Ng" />
+        <meta name="theme-color" content="#f97316" />
       </Head>
 
       <TopLeftImg />
